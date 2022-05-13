@@ -48,7 +48,7 @@ nav {
 }
 
 .feature ul {
-    padding-left: 4rem;
+    padding-left: 0;
     list-style: none;
 }
 
@@ -76,6 +76,10 @@ nav {
     height: 30px;
 }
 
+.service-2-mobile {
+    display: none;
+}
+
 .gallery {
     background: whitesmoke;
 }
@@ -98,4 +102,70 @@ footer a {
 
 footer a:hover {
     color: black;
+}
+
+@media screen and (max-width:768px) {
+    .nav-container {
+        padding:0 5rem 0 !important;
+    } 
+    
+    .header-row {
+        text-align:center;
+     }
+
+     .header-img {
+
+         margin-top: 1rem;
+     }
+
+     .companies-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .company-img {
+         margin-bottom:1rem;
+     }
+
+     .feature-row {
+         text-align:center;
+     }
+
+     .icon-col {
+         margin-bottom: 1rem;
+     }
+
+     .container {
+         max-width: unset;
+         width:100% !important;
+         padding: 5rem;
+     }
+
+     .feature ul {
+         margin-top: 1.5rem;
+     }
+
+
+     .services {
+         text-align:center;
+     }
+
+     .gallery {
+        text-align:center; 
+     }
+
+     .service-2-mobile {
+         display: unset;
+     }
+
+     .service-2 {
+         display:none;
+     }
+}
+
+@media screen and (max-width:445px) {
+    .play-video-btn {
+        margin: 1rem 0;
+    }
 }
