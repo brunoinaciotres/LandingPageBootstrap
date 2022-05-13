@@ -6,5 +6,5 @@ This project is a fictional Landing Page made using Bootstrap 5. <br>
 It is focused on the page structure layout. Therefore, there is no interaction available. <br>
 
 The responsivity was done using a mix of Bootstrap, Flex-Box and Media Queries.
-
+Check the site here: https://bit.ly/3FHmcZi
 Hope you like it! 😄
