@@ -114,8 +114,29 @@ footer a:hover {
      }
 
      .header-img {
-
+        width:100% !important;
          margin-top: 1rem;
+     }
+
+     .header-img img {
+         width:100%;
+     }
+
+     .feature-img {
+        width:100% !important;
+     }
+
+     .feature-img img {
+        width:100%;  
+     }
+
+     .contact-img {
+         width:100% !important;
+         margin-top:1rem;
+     }
+
+     .contact-img img {
+         width:100%;
      }
 
      .companies-row {
